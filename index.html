@@ -10,16 +10,52 @@
 <body>
     <main>
         <div class="container ui">
-            <input id="num1" type="number">
-            <input id="num2" type="number">
+            <input id="num1" type="number" placeholder="input 1" style="font-size: x-large;">
+            <input id="num2" type="number" placeholder="input 2" style="font-size: x-large;">
             <br> <br>
-            <button id="add" onclick="add()">Add</button>
+
+            <section class="keypad">
+                <div class="first-row">
+                    <button id="seven">7</button>
+                    <button id="eight">8</button>
+                    <button id="nine">9</button>
+                    <button id="sub" onclick="mul()">*</button>
+                </div>
+                <div class="second-row">
+                    <button id="four">4</button>
+                    <button id="five">5</button>
+                    <button id="six">6</button>
+                    <button id="sub" onclick="sub()">-</button>
+                </div>
+                <div class="third-row">
+                    <button id="one">1</button>
+                    <button id="two">2</button>
+                    <button id="three">3</button>
+                    <button id="add" onclick="add()">+</button>
+                </div>
+                <div class="fourth-row">
+                    <button id="dec">C</button>
+                    <button id="zero">0</button>
+                    <button id="equal">=</button>
+                    <button id="sub" onclick="div()">/</button>
+
+
+                </div>
+            </section>
+            
+            <br>
+            
+
+            <!-- <button id="add" onclick="add()">+</button>
             <button id="sub" onclick="sub()">Subtract</button>
             <button id="sub" onclick="mul()">Multiply</button>
-            <button id="sub" onclick="div()">Divide</button>
+            <button id="sub" onclick="div()">Divide</button> -->
 
             <h2 id="res">Result: </h2>
         </div>
+
+
+        
     </main>
 
 
