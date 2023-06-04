@@ -1,0 +1,57 @@
+/* *{ */
+    /* margin: 0;
+    padding: 0; */
+/* } */
+
+.ui {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+/* To hide the arrows in the input text box in chrome we write css for webkit  */
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#num1, #num2 {
+    
+    border: none;
+    background-color: #1f1f1f;
+    color: #fff;
+    padding-bottom: 50px;
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 10px;
+    
+}
+
+.container input:hover {
+    
+    cursor: pointer;
+}
+
+
+
+
+
+.keypad button {
+    padding: 20px;
+    font-size: x-large;
+    background-color: #1f1f1f;
+    color: #fff;
+    border: none;
+    
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 100px;
+    border-radius: 10px;
+
+}
+
+.keypad button:hover {
+    cursor: pointer;
+    background-color: black;
+}
